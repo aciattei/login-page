@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3fdeb7a5b.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+</head>
+<body>
+  <div class="container">
+    <div class="forms">
+      <div class="form login">
+        <span class="title">Welcome!</span>
+        <span class="login-text">Sign in to your account</span>
+        <form action="#">
+          <div class="input-field">
+            <input type="email" placeholder="E-mail" required>
+            <i class="fa-solid fa-envelope icon"></i>
+          </div>
+          <div class="input-field">
+            <input type="password" class="password" placeholder="Password" required>
+            <i class="fa-solid fa-lock icon"></i>
+            <i class="fa-regular fa-eye-slash showHidePw"></i>
+          </div>
+          <div class="checkbox-text">
+            <div class="checkbox-content">
+              <input type="checkbox" id="logCheck">
+              <label for="logCheck" class="text">Remember me</label>
+            </div>
+            <a href="#" class="text">Forgot your password?</a>
+          </div>
+          <div class="input-field button">
+            <input type="button" value="Login">  
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
